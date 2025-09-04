@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Special Design</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    />
+  </head>
+  <body>
+    <!-- start setting box -->
+    <div class="setting-box">
+      <div class="icon-container"><i class="fa fa-gear"></i></div>
+      <div class="box-option">
+        <h4>Color :</h4>
+        <div class="colors">
+          <span class="active" data-color="#1ABC9C"></span>
+          <span data-color="#9B59B6"></span>
+          <span data-color="#E74C3C"></span>
+          <span data-color="#27AE60"></span>
+          <span data-color="#0075ff"></span>
+        </div>
+      </div>
+      <div class="box-option">
+        <h4>Random Background :</h4>
+        <div class="background-box yes-no">
+          <span class="active" data-background="yes">Yes</span>
+          <span data-background="no">No</span>
+        </div>
+      </div>
+
+      <div class="box-option">
+        <h4>Show Navigation :</h4>
+        <div class="nav-option yes-no">
+          <span class="active" data-nav="yes">Yes</span>
+          <span data-nav="no">No</span>
+        </div>
+      </div>
+      <button class="danger">Reset Options</button>
+    </div>
+    <!-- end setting box -->
+    <!-- start navigation  -->
+    <div class="nav-box">
+      <div class="bullet" data-section="about-us">
+        <div class="tooltip">About Us</div>
+      </div>
+      <div class="bullet" data-section="skills">
+        <div class="tooltip">Our Skill</div>
+      </div>
+      <div class="bullet" data-section="gallery">
+        <div class="tooltip">Our gallery</div>
+      </div>
+      <div class="bullet" data-section="time-line     ">
+        <div class="tooltip">Time Line</div>
+      </div>
+      <div class="bullet" data-section="features">
+        <div class="tooltip">Our Features</div>
+      </div>
+      <div class="bullet" data-section="testimonials">
+        <div class="tooltip">Testimonials</div>
+      </div>
+      <div class="bullet" data-section="contact-us">
+        <div class="tooltip">Contact Us</div>
+      </div>
+    </div>
+    <!-- end navigation  -->
+    <!-- start landing page -->
+    <div class="landing-page">
+      <div class="overlay"></div>
+
+      <div class="container">
+        <div class="header">
+          <div class="logo">Special Design</div>
+          <ul>
+            <li><a href="#" data-section="about-us">About Us</a></li>
+            <li><a href="#" data-section="skills">Our Skills</a></li>
+            <li><a href="#" data-section="gallery">Our Gallery</a></li>
+            <li><a href="#" data-section="time-line">Time Line</a></li>
+            <li><a href="#" data-section="features">Our Features</a></li>
+            <li><a href="#" data-section="testimonials">Testimonials</a></li>
+            <li><a href="#" data-section="contact-us">Contact</a></li>
+          </ul>
+          <div class="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="introduction-text">
+          <h1>We Are <span>Creative</span> Agency</h1>
+          <p>
+            We craft unique digital experiences that combine creativity,
+            functionality, and innovation to help your business grow and stand
+            out in today’s competitive world.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- end landing page -->
+    <!-- start about us section -->
+    <div class="container">
+      <div class="about-us">
+        <div class="info-box">
+          <h1>About Us</h1>
+          <p>
+            We are a passionate team dedicated to delivering high-quality
+            digital solutions. With a focus on innovation and user experience,
+            we help brands connect with their audiences effectively.
+          </p>
+        </div>
+        <div class="img-box">
+          <img src="imegs/about-us.jpg" alt="About Us" />
+        </div>
+      </div>
+    </div>
+    <!-- end about us section -->
+    <!-- start skills section  -->
+    <div class="skills">
+      <div class="container">
+        <h1>Our Skills</h1>
+        <div class="skill-box">
+          <div class="skill-name">HTML</div>
+          <div class="skill-progress">
+            <span data-width="60%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">CSS</div>
+          <div class="skill-progress">
+            <span data-width="70%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-progress">
+            <span data-width="80%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">PHP</div>
+          <div class="skill-progress">
+            <span data-width="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Python</div>
+          <div class="skill-progress">
+            <span data-width="40%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">UI-UX</div>
+          <div class="skill-progress">
+            <span data-width="70%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end skills section  -->
+    <!-- start gallery section  -->
+    <div class="container">
+      <div class="gallery">
+        <h1>Our gallery</h1>
+        <div class="imegs">
+          <img src="imegs/01.jpg" alt="Creative Project 1" />
+          <img src="imegs/02.jpg" alt="Creative Project 2" />
+          <img src="imegs/03.jpg" alt="Creative Project 3" />
+          <img src="imegs/04.jpg" alt="Creative Project 4" />
+          <img src="imegs/05.jpg" alt="Creative Project 5" />
+          <img src="imegs/06.jpg" alt="Creative Project 6" />
+          <img src="imegs/07.jpg" alt="Creative Project 7" />
+          <img src="imegs/08.jpg" alt="Creative Project 8" />
+          <img src="imegs/09.jpg" alt="Creative Project 9" />
+          <img src="imegs/10.jpg" alt="Creative Project 10" />
+        </div>
+      </div>
+    </div>
+
+    <!-- end gallery section  -->
+    <!--start time line section  -->
+    <div class="time-line">
+      <h1>Time Line</h1>
+      <div class="container">
+        <div class="content">
+          <div class="year one">2024</div>
+          <div class="box left">
+            <h1>First Achievement</h1>
+            <p>
+              Launched our very first project, achieving outstanding results and
+              gaining positive feedback from clients worldwide.
+            </p>
+          </div>
+          <div class="clear"></div>
+          <div class="box right">
+            <h1>Second Achievement</h1>
+            <p>
+              Expanded our services to cover new technologies, delivering modern
+              and scalable solutions for businesses of all sizes.
+            </p>
+          </div>
+          <div class="clear"></div>
+          <div class="year two">2025</div>
+          <div class="box left">
+            <h1>Third Achievement</h1>
+            <p>
+              Partnered with international brands to create innovative digital
+              products that elevated customer experiences.
+            </p>
+          </div>
+          <div class="clear"></div>
+          <div class="box left">
+            <h1>Fourth Achievement</h1>
+            <p>
+              Reached new milestones by expanding our global presence and
+              empowering businesses with cutting-edge technology.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end time line section  -->
+    <!-- start Features section -->
+    <div class="features">
+      <h1>Our Features</h1>
+      <div class="container">
+        <div class="feat">
+          <i class="fas fa-bolt"></i>
+          <h3>Fast Response</h3>
+          <p>Provides a smooth and quick experience for users</p>
+        </div>
+        <div class="feat">
+          <i class="fas fa-paint-brush"></i>
+          <h3>Beautiful Design</h3>
+          <p>Offers a visually pleasing and modern UI</p>
+        </div>
+        <div class="feat">
+          <i class="fas fa-mobile-alt"></i>
+          <h3>Responsive Layout</h3>
+          <p>Adapts perfectly to all devices and screen sizes</p>
+        </div>
+        <div class="feat">
+          <i class="fas fa-smile"></i>
+          <h3>User-Friendly</h3>
+          <p>Easy to navigate and use, even for beginners</p>
+        </div>
+        <div class="feat">
+          <i class="fas fa-lock"></i>
+          <h3>Safe & Secure</h3>
+          <p>Protects your data and guarantees your safety</p>
+        </div>
+        <div class="feat">
+          <i class="fas fa-cogs"></i>
+          <h3>Powerful Tool</h3>
+          <p>Equipped with strong and reliable functionality</p>
+        </div>
+      </div>
+    </div>
+    <!-- end Features section -->
+    <!-- start testimonials -->
+    <div class="testimonials">
+      <div class="container">
+        <h1>Testimonials</h1>
+
+        <div class="tes-content">
+          <div class="ts-box">
+            <p>
+              Amazing service! The project was delivered quickly, with excellent
+              quality and attention to detail.
+            </p>
+            <div class="person-info">
+              <img src="imegs/tes-02.jpg" alt="Ibrahim Ruckby" />
+              <div class="text">
+                <h4>Ibrahim Ruckby</h4>
+                <p>CEO at Company</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="ts-box">
+            <p>
+              I was impressed by the professionalism and creativity of the team.
+              Highly recommended!
+            </p>
+            <div class="person-info">
+              <img src="imegs/tes-01.jpg" alt="Ahmad Hasan" />
+              <div class="text">
+                <h4>Ahmad Hasan</h4>
+                <p>CEO at Company</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="ts-box">
+            <p>
+              Great experience from start to finish. The support and final
+              product exceeded my expectations.
+            </p>
+            <div class="person-info">
+              <img src="imegs/tes-03.png" alt="Sarah Nabilsi" />
+              <div class="text">
+                <h4>Sarah Nabilsi</h4>
+                <p>CEO at Company</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end testimonials -->
+    <!-- start contact us -->
+    <div class="contact-us">
+      <div class="overlay"></div>
+      <div class="container">
+        <h1>Contact Us</h1>
+        <form action="" class="left">
+          <input type="text" placeholder="Your Name" name="username" />
+          <input type="text" placeholder="Your Phone" name="phone" />
+          <input type="email" placeholder="Your Email" name="email" />
+          <input type="text" placeholder="Subject" name="subject" />
+        </form>
+        <form action="" class="right">
+          <textarea name="massage" id="" placeholder="Your Message"></textarea>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+    <!-- end contact us -->
+    <!-- start footer  -->
+    <div class="footer">Created With ❤️ by Dr. Ibrahim Agha</div>
+    <!-- end footer  -->
+    <script src="js/master.js"></script>
+  </body>
+</html>
